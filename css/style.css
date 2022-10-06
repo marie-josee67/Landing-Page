@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    background:rgb(121, 82, 11);
+}
+#container1{
+    display: flex; /* élément côte à côte */
+    flex-wrap: wrap;
+    min-height:100vh; /* prendre toute la hauteur du viewport (fenêtre) */
+    background: radial-gradient( RGB( 139,195,245) , #1294b8 );
+}
+    
+.navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap:15px;
+}
+.touche-enseigne{
+    font-size: 40px;
+    color: antiquewhite;
+    background: transparent;
+    border: none; /* sans bordure */
+    display: flex;
+}
+.pad-menu{
+    width: 70%;
+}
+.touche-menu{
+    font-size: 15px;
+    color: antiquewhite;
+    border: none; 
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10%;
+}
+.touche-menu:hover{
+    filter: blur(1px); /*floo*/
+}
+.touche{
+    color: antiquewhite;
+    gap: 30px;
+    background: transparent;
+    border: none; 
+    font-size: 30px;
+}
+.touche:hover{
+    filter: blur(1px);
+}
+.contenu{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+.gauche{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.droite{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.email{
+    background: #fff;
+    border-radius: 50px;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+#adresse{
+    background: transparent;   
+    border: none; 
+    outline: none;
+    color: rgb(173, 172, 172);
+}
+#adresse:hover{
+    border:none;
+    background: transparent;
+    outline: none;
+    color: rgb(20, 17, 17);
+}
+h1{
+    display: flex;
+    font-size :50px;
+    justify-content: center;
+    align-items: center;
+}
+.texte{
+    font-size: 20px;
+}
+.touche-menu1{
+    font-size: 15px;
+    color: antiquewhite;
+    background:transparent;
+    border: none; 
+    border-radius: 50px;
+}
+.touche-menu1:hover{
+    filter: blur(1px);
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+#container2{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 255, 106);
+}
+
+.titre h1{
+    display: flex;
+    font-size :50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+.titre p {
+    font-size :20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(124, 32, 185);
+}
+.card{
+    display: flex;
+    margin: 10px;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(206, 209, 22);
+}
+.card1{
+    width: 100px;
+    background: rgb(39, 55, 204);
+    border: 2px solid rgb(209, 22, 178);
+}
+.card2{
+    width: 100px;
+    background: rgb(39, 55, 204);
+    border: 2px solid rgb(209, 22, 178);
+}.card3{
+    width: 100px;
+    background: rgb(39, 55, 204);
+    border: 2px solid rgb(209, 22, 178);
+}
+.card a {
+    height: 90px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
