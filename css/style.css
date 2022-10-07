@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
-    background:rgb(121, 82, 11);
+    
 }
 #container1{
     display: flex; /* élément côte à côte */
@@ -24,7 +24,7 @@
 }
 .touche-enseigne{
     font-size: 40px;
-    color: antiquewhite;
+    color: rgb(233, 210, 180);
     background: transparent;
     border: none; /* sans bordure */
     display: flex;
@@ -34,7 +34,7 @@
 }
 .touche-menu{
     font-size: 15px;
-    color: antiquewhite;
+    color:black;
     border: none; 
     justify-content: center;
     flex-wrap: wrap;
